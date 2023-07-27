@@ -6,6 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
+    "test": "jest --watchAll",
+    "ci:test": "jest",
     "cypress": "cypress open",
     "cypress:headless": "cypress run"
   },
@@ -19,7 +21,8 @@
   },
   "devDependencies": {
     "cypress": "^4.2.0",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "jest": "^29.6.2"
   },
   "renovate": {
     "extends": [
